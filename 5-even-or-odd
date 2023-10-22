@@ -1,0 +1,7 @@
+public String evenOrOdd(Integer num) {
+    if(math.mod(num) == 0) {
+        return 'even';
+    } eles {
+        return 'odd';
+    }
+}
