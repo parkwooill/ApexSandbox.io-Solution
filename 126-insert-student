@@ -2,7 +2,7 @@ public Id insertStudent(String name, String email) {
     apxio__Student__c student = new apxio__Student__c();
 
     student.name = name;
-    student.apxio__Student__c = email;
+    student.apxio__Email__c = email;
 
     insert student;
 
