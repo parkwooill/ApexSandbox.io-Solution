@@ -10,7 +10,7 @@ public String changeTimeFormat(String strTime) {
         return '12:' + minutes + ' PM';
     } else {
         intHours -= 12;
-        hours = String.valueOf(intHours).leftpad(2,'0');
+        hours = String.valueOf(intHours).leftPad(2,'0');
         return hours + ':' + minutes + ' PM';
     }
 }
