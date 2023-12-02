@@ -3,8 +3,8 @@ public String changeTimeFormat(String strTime) {
     String minutes = strTime.substringAfter(':');
     Integer intHours = Integer.valueOf(hours);
     if (intHours == 0) {
-        return '12:' + minutes + ' AM'      
-    } else if (intHours < 12 ) {
+        return '12:' + minutes + ' AM';
+    } else if (intHours < 12) {
         return hours + ':' + minutes + ' AM';
     } else if (intHours == 12) {
         return '12:' + minutes + ' PM';
@@ -14,7 +14,6 @@ public String changeTimeFormat(String strTime) {
         return hours + ':' + minutes + ' PM';
     }
 }
-
 
 
  
